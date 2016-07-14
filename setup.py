@@ -10,9 +10,5 @@ setup(
   download_url = 'https://github.com/dbuckman/mycurl/tarball/0.1.4',
   keywords = ['MycURL', 'cURL', 'HTTP'],
   classifiers = [],
-  INSTALL_REQUIRES = [
-      'pycurl>=7.43.0',
-      'urllib3>=1.16',
-      'urlparse2>=1.1.1'
-  ]
+  install_requires = ['pycurl','urllib3','urlparse2']
 )
